@@ -5,6 +5,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+
 
 function Footer() {
   return (
@@ -48,11 +50,21 @@ function Footer() {
                 <AiFillInstagram />
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="https://www.facebook.com/talel.oueslati.90475"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>
     </Container>
   );
-}
+} 
 
 export default Footer;
