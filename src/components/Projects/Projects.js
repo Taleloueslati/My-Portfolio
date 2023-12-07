@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/266665.png";
 import chatify from "../../Assets/Projects/50906.jpg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import HealthHubFinder from "../../Assets/HealthHubFinder.PNG";
 
 function Projects() {
   return (
@@ -48,6 +49,17 @@ function Projects() {
               between coaches and users and ensures the best programs and
               products"
               ghLink="https://github.com/Taleloueslati/Fitness_app"            
+            />
+          </Col>
+
+          <Col md={4} className="HealthHubFinder">
+            <ProjectCard
+              imgPath={HealthHubFinder}
+              isBlog={false}
+              title="HealthHubFinder"
+              description="is related to healthcare or health services, it could be a tool or platform designed to help people find healthcare providers, clinics, hospitals, or other health-related services in a specific area."
+              ghLink="https://github.com/Taleloueslati/HealthHubFinder"
+              
             />
           </Col>
 
